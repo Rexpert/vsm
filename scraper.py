@@ -5,6 +5,7 @@ import json
 import multiprocessing as mp
 import random
 from operator import itemgetter
+import sys
 
 import pandas as pd
 import requests
@@ -59,3 +60,5 @@ if __name__ == '__main__':
         result.extend([df])
         result = pd.concat(result)
         result.to_csv(r'./output/scrape.csv', index=False)
+    else:
+        sys.exit('Finished Scraping...')
