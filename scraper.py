@@ -40,10 +40,10 @@ def scrape_all(to_sc):
 
 
 def read_data():
-    with open(r'.\data\veg.json', 'r') as f:
+    with open(r'./data/veg.json', 'r') as f:
         veg_json = json.load(f)
     try:
-        output = pd.read_csv(r'.\output\scrape.csv')
+        output = pd.read_csv(r'./output/scrape.csv')
     except FileNotFoundError:
         output = pd.DataFrame(columns=['pid'])
     pid = set(map(itemgetter('pid'), veg_json['products']))
@@ -58,4 +58,4 @@ if __name__ == '__main__':
         result = scrape_all(to_sc)
         result.extend([df])
         result = pd.concat(result)
-        result.to_csv(r'.\output\scrape.csv', index=False)
+        result.to_csv(r'./output/scrape.csv', index=False)
