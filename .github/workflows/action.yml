@@ -1,0 +1,31 @@
+name: Scrape Veggie-Go
+
+on:
+    workflow_dispatch
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: checkout repo content
+      uses: actions/checkout@v2
+
+    - name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        cache: 'pip'
+
+    - name: install python pakages
+      run: pip install -r requirements.txt
+      
+    - name: run python
+      run: python scraper.py
+
+    - name: auto commit
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with: 
+        commit_message: ':bento: Update Data'
+        branch: add-data
+        create_branch: true
