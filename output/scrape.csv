@@ -1,55 +1,131 @@
 pid,name,address,phone,workingHour,linkDescription,description,locationX,locationY,totalRatingPoint,numberRating,created_at,updated_at,picture,fbLink,reDescription,foodType,extraInfo,priceRange,recommended,budget
-5015,Green Leaf ,"MDLD 7139, Lot 173, Ground Floor, Bandar Sri Perdana, Phase 3, Jalan Silam, 91100 Lahad Datu, Sabah. ",0167083018,Morning    Afternoon    Night    ,"Business Hour : 10.30am to 2.00pm , 5.00pm to 8.30pm 
+3275,Blissful Cottage,"No.25, Jalan Temenggung 9/9, Bandar Mahkota Cheras, 43200 Cheras, Selangor.",0186694779,Morning    Afternoon    ,"Business Hour: 9.00am to 5.00pm 
+Rest day: Sunday 
+Updated 12/4/2022",Selangor postcode,3.052053,101.787813,vsmAlice,,2018-04-13 20:34:11,2022-04-12 16:32:24,003275_1aa2018-04-13_21-21-58.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1670182526400592,ala carte RM19.00 onwards,#Chinese中餐 #Ala Carte单座 #Everyday Special每日特餐 #Cake蛋糕 #Bread面包  #Organic Food有机食物 ,#Cafe咖啡厅 #Vegetarian素食 #Wifi无线网络 #Air-cond冷气 #Buffet自由餐 #Delivery外卖服务 ,above average中上,0,0
+1839,Kedai Makan Sayur-sayuran Pu Ti 菩提素食馆,"No.21, Taman Naga, Jalan Seremban, 71010 Lukut, Port Dickson, Negeri Sembilan.  ",0123281083,Morning Afternoon ,"Business Hour : 7.00am to 3.00pm
+Rest day : 2nd & 16th of lunar month 
+Updated 4/5/2022
+",opposite Lukut Petronas petrol station,2.566234,101.823769,vsmAlice,0,2016-04-05 23:18:07,2022-05-04 15:41:08,001839_1aa2017-09-12_01-07-12.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1866351583450351,面食类RM7.00起,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Vegetarian Mixed Rice素杂饭 #Vegetarian Frozen Food Available售卖素料 ,#Restaurant餐厅 #Vegetarian素食 #Feast酒席 #Buffet自由餐 ,average一般,0,0
+3882,7N Vegetarian stall at Medan Selera DBKL Taman Cheras Makmur 7N 医食之家在蕉赖花园的DBKL小贩中心,"Jalan 3/96A, Taman Cheras Makmur, Cheras 56100, Kuala Lumpur.",0126797133,Morning    Afternoon    ,"Business Hour : 6.30am to 1.30pm  
+Rest day : Sunday 
+Updated 4/7/2022",,3.101815,101.740624,vsmAlice,Same Owner with Vegetarian's Corner at Pusat Penjaja Taman Desa Aman,2019-04-19 21:38:09,2022-07-04 10:12:24,003882_1aa2019-04-20_09-18-05.jpg*,https://www.facebook.com/groups/781347675284086/permalink/2181901958561977,面食类RM7.00起,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 ,#Hawker Stall档口 #Vegetarian素食 ,average一般,0,0
+4517,Kedai Makanan Fong Kim Kee 慈航素食茶楼,"No.36, Jalan Meriam, 84000 Muar, Johor.",0126090342,Morning    Afternoon    Night    ,"Business Hour : 6.30am to 2.00pm , 5.00pm to 9.00pm Rest day : Tuesday 
+Updated 13/4/2022",,2.048213,102.569865,vsmAlice,.,2020-07-17 14:05:49,2022-05-19 09:57:20,004517_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/3530951350323691,面食类RM5.00起,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Rice饭类 #Chinese Dishes煮炒 #Everyday Special每日特餐 #Weekend Special周末特餐 #Snack小吃 ,#Restaurant餐厅 #Vegetarian素食 ,budget经济,0,1
+709,Merryland Vegetarian Restaurant  雅阁素食餐厅,"No.46, Jalan Bakawali 48, Taman Johor Jaya, 81100 Johor Bahru, Johor.",073540387,Morning Afternoon Night ,"Business Hour : 10.00am to  8.30pm
+Rest day : Tuesday
+Updated 9/4/2022",Tel:0127639264,1.542452,103.795111,vsmAlice,0,2016-02-01 15:07:37,2022-04-09 15:40:45,000709_1aa2017-07-13_15-49-04.jpg*000709_1saa2020-01-02_01-51-01.jpg*000709_1sab2020-01-02_01-51-01.jpg*000709_1sac2020-01-02_01-51-01.jpg*000709_1sad2020-01-02_01-51-01.jpg*000709_1sae2020-01-02_01-51-01.jpg*000709_1saf2020-01-02_01-51-01.jpg*000709_1sag2020-01-02_01-51-01.jpg*000709_1sah2020-01-02_01-51-01.jpg*000709_1sai2020-01-02_01-51-01.jpg*000709_1saj2020-01-02_01-51-01.jpg*000709_1sak2020-01-02_01-51-01.jpg*000709_1sal2020-01-02_01-51-01.jpg*000709_1sam2020-01-02_01-51-01.jpg*,https://www.facebook.com/groups/781347675284086/permalink/3984171478335007,小炒RM8.50起,#Chinese中餐 #Vegetarian Mixed Rice素杂饭 #Chinese Dishes煮炒 ,#Restaurant餐厅 #Vegetarian素食 #Wifi无线网络 #Air-cond冷气 #Feast酒席 #Buffet自由餐 #Credit Card信用卡 ,average一般,1,0
+4147,Vegetarian stall at Restoran Sembilan Lapan Sembilan Lapan 素食档在9898饮食中心,"No.87, Lorong Bukit Panchor, Taman Bukit Panchor 2, 14300 Nibong Tebal, Pulau Pinang. ",01113257189,Morning    ,"Business Hour : 7.00am to 11.00am Rest day : Sunday and the day before 1st & 15th of lunar month
+Updated 17/5/2022",初一十五只卖杂菜饭,5.176598,100.487502,vsmSelina,,2019-08-25 13:56:33,2022-06-05 22:07:16,004147_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/2403214526430718,素鸡饭RM4.00起，面类RM4.50起,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Rice饭类 #Everyday Special每日特餐 ,#Hawker Stall档口 #Vegetarian素食 ,budget经济,0,1
+2403,Vegetarian Lei Char at Heng Park Restaurant 素食擂茶档在忝兴美食坊,"No.24-01, Jalan Nusantara 11/7, Taman Nusantara, 81550 Gelang Patah, Johor.",0137410898,Afternoon    ,"Business Hour : 12.00pm to 3.00pm 
+Rest day : uncertain Thursday
+Updated 19/5/2022",,1.458743,103.584863,vsmAlice,"Siyi Chang Update 12/6/2019
+一次上门，一次手机联络老板娘，她坚持不要贴VSM的海报。",2016-10-27 16:41:40,2022-05-19 14:23:35,002403_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1144576698961180,擂茶RM7.00起,#Chinese中餐 #Hakka Ground Tea擂茶 ,#Hawker Stall档口 #Vegetarian素食 ,average一般,0,0
+3416,Sheng Kang Vegetarian Centre at F And H Kopitiam 圣康素食中心在福海茶室,"No.60, Jalan Padungan, 93100 Kuching, Sarawak.",0128949366,Morning    Afternoon    ,"Business Hour: 11.15am to 1.30pm 
+Rest day: weekends & Public Holidays 
+Updated 25/5/2022",.,1.556335,110.354229,vsmAlice,,2018-07-10 21:36:14,2022-05-29 20:55:02,003416_aa.jpeg*,https://www.facebook.com/groups/781347675284086/permalink/1772248662860644,素杂饭RM3.50起,#Chinese中餐 #Vegetarian Mixed Rice素杂饭 ,#Hawker Stall档口 #Vegetarian素食 ,budget经济,0,1
+1454,Savoury Brink Vegetarian Restaurant  香缘素食店,"No.452C, Jalan Besar, Kampung Baru, 42800 Tanjung Sepat, Selangor. ",0126879098,Morning  ,"Business Hour : 5.30am to 12.30pm 
+Rest day : 2nd & 16th of lunar month 
+Updated 12/4/2022",,2.660196,101.561196,vsmAlice,0,2016-02-25 18:17:06,2022-04-12 17:43:11,001454_1aa2017-11-08_13-12-23.JPG*,https://www.facebook.com/groups/781347675284086/permalink/802892589796261,素杂饭RM5.00起,#Chinese中餐 #Vegetarian Mixed Rice素杂饭 ,#Restaurant餐厅 #Vegetarian素食 #Feast酒席 ,budget经济,0,1
+4631,Angie Vegetarian 安琪素食,"Gerai No.3 ＆ 4, Jalan Prima Setapak, Taman P. Ramlee, 53100 Kuala Lumpur.",01116018855,Morning    Afternoon    ,"Business Hour : 8.30am to 2.00pm
+Rest day : Monday
+Updated 18/5/2022",,3.197792,101.709775,vsmAlice,,2020-10-07 13:47:09,2022-05-18 20:50:37,004631_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/3886685911416898,小炒RM7.00起,#Chinese中餐 #Vegetarian Mixed Rice素杂饭 #Fried Noodles/Rice炒面饭类 #Snack小吃 ,#Hawker Stall档口 #Vegetarian素食 ,average一般,0,0
+1608,Vegetarian stall at Restaurant Xin Fong Inn 素食档在薪鸿运饮食中心,"No.1, Lorong Teja 1, Taman keladi, 08000 Sungai Petani, Kedah.",0164305205,Morning ,"Business Hour : 7.00am to 10.30am Rest day : Friday 
+Updated 6/5/2022",星期日有素G饭或椰浆饭 ; 初一十五只提供素杂饭,5.615198,100.5035,vsmSelina,0,2016-03-01 15:25:49,2022-05-06 17:33:01,001608_1aa2019-07-05_22-10-03.jpg*001608_1saa2019-07-05_22-27-55.jpg*001608_1sab2019-07-05_22-27-55.jpg*001608_1sac2019-07-05_22-27-55.jpg*001608_1sad2019-07-05_22-27-55.jpg*,https://www.facebook.com/groups/781347675284086/permalink/899321043486748,面汤/面食类 RM4.00 起,#Chinese中餐 #Noodles soup/noodles面汤/面食类 #Everyday Special每日特餐 #Weekend Special周末特餐 ,#Hawker Stall档口 #Vegetarian素食 ,budget经济,1,1
+2518,Sandalo 香道湾,"No.31,Jalan SS 21/56B,Petaling Jaya,47400 Selangor.",0374976356,Morning    Afternoon    Night    ,"Business Hour : 11.00am to 3.00pm , 5.30pm to 9.30pm  
+Rest day : Saturday
+Updated 9/8/2022
+
+
+","Tel:01139169828
+Tel:0175739796
+Mixed rice only available on weekdays ",3.137911,101.621966,vsmAlice,0,2017-01-09 22:46:42,2022-08-09 14:44:23,002518_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1233468043405378,"ala carte RM10.90 onwards
+",#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Rice饭类 #Vegetarian Mixed Rice素杂饭 #Ala Carte单座 #Steamboat火锅 ,#Restaurant餐厅 #Vegetarian素食 #Wifi无线网络 #Air-cond冷气 #Delivery外卖服务 #Credit Card信用卡 ,average一般,0,0
+225,Yuan Xing Vegetarian 圆欣素食馆,"No.56, Jalan Laksamana 2, Taman Ungku Tun Aminah, 81300 Skudai, Johor. ",0167065080,Afternoon Night ,"Business Hour : 11.30am to 8.00pm 
+Rest day : alternate Monday 
+Updated 10/4/2022
+ 
+
+
+",". 
+",1.525599,103.667531,vsmAlice,0,2016-01-10 20:24:42,2022-04-10 22:07:44,000225_1aa2022-04-10_22-07-44.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1229321177153398,小炒RM6.50起 ,#Chinese中餐 #Chinese Dishes煮炒 #Ala Carte单座 #Noodles soup/noodles面汤/面食类 #Rice饭类 #Everyday Special每日特餐 #Bakkuteh素肉骨茶 #Vegetarian Chops素扒 ,#Restaurant餐厅 #Vegetarian素食 #Feast酒席 #Buffet自由餐 ,average一般,0,0
+3765,Three O Cafe 圆缘园,"No.56, Jalan Kempas Utama 2/4, Taman Kempas Utama, 81300 Johor Bahru, Johor.
+","075114438 
+",Morning    Afternoon     ,"Business Hour : 8.00am to 3.30pm 
+Open daily
+Updated 6/4/2022", ,1.547306,103.706119,vsmAlice, ,2019-03-02 20:38:30,2022-05-19 10:11:53,003765_1aa2019-08-05_10-38-45.jpg*,https://www.facebook.com/groups/781347675284086/permalink/2108763309209176 ,"面食类RM7.00起
+",#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Chinese Dishes煮炒 #Weekend Special周末特餐 #Snack小吃 #Organic Food有机食物 ,#Restaurant餐厅 #Vegetarian素食 #Air-cond冷气 ,average一般 ,0,0
+2429,Vegetarian noodles stall at Kedai Makanan Dan Minuman 918  素食面档在918饮食中心,"Jalan Raja Uda, Taman Bunga Raya, 12300 Butterworth, Pulau Pinang.",0125372366,Morning    ,Business Hour : 7.00am to 10.00am Rest day : Thursday (Friday close if 1st & 15th of lunar month fall on Thursday) Updated 10/04/2022,"Raja Uda Appolo巴刹对面店屋。初一十五会有nasi lemak。若有接到宴席订单就会休息
+",5.43813,100.38661,vsmSelina,0,2016-11-16 16:12:19,2022-04-12 18:16:28,002429_1aa2018-06-01_21-34-09.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1716912231727621,面汤/面食类 RM4.50 起,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 ,#Hawker Stall档口 #Vegetarian素食 #Feast酒席 #Buffet自由餐 ,budget经济,0,1
+1453,Moon Flower at Kota Kinabalu 月桦素食 ,"Lot 2-0-3, Kolam Center, Phase 2, 88300 Kota Kinabalu, Sabah.",088225655,Morning Afternoon Night ,"Business Hour : 7.00am to 2.00pm , 5.30pm to 8.30pm Rest day : Thursday 
+Updated 20/5/2022
+
+",Tel:0163896300,5.949714,116.092126,vsmAlice,same owner with new moon flower,2016-02-25 18:13:52,2022-05-20 15:29:34,001453_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1283349621750553,"面食类RM8.50起  
+
+ ",#Chinese中餐 #Vegetarian Mixed Rice素杂饭 #Economy Noodles经济面 #Chinese Dishes煮炒  #Snack小吃 #Yong Tau Foo酿豆腐 ,#Restaurant餐厅 #Vegetarian素食 #Feast酒席 #Buffet自由餐 #Outdoor Catering上门到会 ,average一般,0,0
+1813,Bio Organic  菜根香有机素食轩,"No.41, Jalan Dedap 4, Taman Johor Jaya, 81100 Johor. ",0167180916,Morning Afternoon ,"Business Hour : 10.00am to 6.00pm ; Saturday 10.00am to 4.00pm
+Rest day : Sunday 
+Updated 5/4/2022",Tel:073531675,1.541037,103.803915,vsmAlice,0,2016-03-19 12:36:55,2022-04-10 20:53:14,001813_1aa2016-08-15_16-34-30.jpg*,https://www.facebook.com/groups/781347675284086/permalink/983472565071595,"ala carte RM9.90 onwards	
+",#Chinese中餐 #Ala Carte单座  #Organic Food有机食物  ,#Restaurant餐厅 #Vegetarian素食 #Wifi无线网络 #Air-cond冷气 #Buffet自由餐 #Credit Card信用卡 ,average一般,0,0
+1289,Healthy Choice 素康素食坊 ,"No.24, Jalan TK 1/11B, Taman Kinrara, 47100 Puchong, Selangor.",0380708913,Morning Afternoon Night ,"Business Hour : 9.00am to 8.00pm 
+Rest day : Sunday
+Updated 20/5/2022",.,3.064131,101.648221,vsmAlice,New owner 25/4/2021,2016-02-24 18:05:47,2022-05-20 21:56:37,001289_1aa2021-04-25_22-16-44.jpg*,https://www.facebook.com/groups/781347675284086/permalink/4445068125578671,面食类RM5.50起,#Chinese中餐 #Vegetarian Mixed Rice素杂饭 #Economy Noodles经济面 #Fried Noodles/Rice炒面饭类 #Noodles soup/noodles面汤/面食类 #Rice饭类 #Snack小吃  #Bakkuteh素肉骨茶  ,#Restaurant餐厅 #Vegetarian素食 ,budget经济,0,1
+5045,Vegetarian's Corner at DBKL (Taman Segar) Multi Tier Car Park,"Stall no.28, Pusat Penjaja, Ground Flour , Jalan Manis 6, Taman Segar Cheras, 56100 Kuala Lumpur.",0127340750,Morning    Afternoon    ,"Business Hour : 7.30am to 2.45pm
+Rest day : Tuesday 
+Updated 23/4/2022","Tel:0126797133
+opposite BSN ",3.088862,101.742304,vsmAlice,,2022-04-23 16:28:21,2022-04-23 16:43:51,005045_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/5586516288100510,面食类RM7.00起,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Rice饭类 #Economy Noodles经济面 #Fried Noodles/Rice炒面饭类 #Burger素汉堡 #Snack小吃 ,#Hawker Stall档口 #Vegetarian素食 ,average一般,0,0
+1552,Vegetarian stall at Pasar Sin On 天然美味素食在新安综合巴刹,"Gerai No.21, Pasar Sin On, Jalan Sin On, 91000 Tawau, Sabah. ",0138838860,Morning ,"Business Hour: 6.30am to 12.00pm 
+Rest day: 2nd & 16th of lunar month 
+Updated 19/5/2019",.,4.272938,117.904534,vsmAlice,Vendor do not allow to paste the poster-by carmen,2016-02-27 21:10:15,2019-05-20 14:31:43,001552_1aa2019-05-19_11-43-53.jpg*001552_1aa2019-05-19_11-55-40.jpg*,https://www.facebook.com/groups/781347675284086/permalink/2230080500410789,"素杂饭RM5.50起,面汤RM6.00起,小炒RM7.00起",#Chinese中餐 #Vegetarian Mixed Rice素杂饭 #Economy Noodles经济面 #Fried Noodles/Rice炒面饭类 #Noodles soup/noodles面汤/面食类 #Yong Tau Foo酿豆腐 ,#Hawker Stall档口 #Vegetarian素食 ,average一般,0,0
+5015,Green Leaf ,"MDLD 7139, Lot 173, Ground Floor, Bandar Sri Perdana, Phase 3, Jalan Silam, 91100 Lahad Datu, Sabah. ",167083018,Morning    Afternoon    Night    ,"Business Hour : 10.30am to 2.00pm , 5.00pm to 8.30pm 
 Rest day : Monday 
 Updated 26/5/2022",,5.027123,118.294423,vsmAlice,,2022-03-30 11:08:05,2022-05-26 18:38:14,005015_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/5523695857715887,小炒RM8.00起,#Chinese中餐 #Chinese Dishes煮炒 #Snack小吃 ,#Restaurant餐厅 #Vegetarian素食 #Air-cond冷气 ,average一般,0,0
-3448,CunThi Good Taste Vegetarian 准提素食馆,"No.151, Lebuh Noordin, 10300 Georgetown, Penang.",0164939056,Morning    Afternoon    ,"Business Hour : 8.30am to 4.00pm Rest day : Monday (If 1st & 15th of lunar month fall on Monday, next day will be their rest day.)
+3448,CunThi Good Taste Vegetarian 准提素食馆,"No.151, Lebuh Noordin, 10300 Georgetown, Penang.",164939056,Morning    Afternoon    ,"Business Hour : 8.30am to 4.00pm Rest day : Monday (If 1st & 15th of lunar month fall on Monday, next day will be their rest day.)
 Updated 18/5/2022",不吃蛋者请预先告知 ；堂食只限两桌 ；星期六有Laksa & Nasi Kandar ；初一十五有福建面，粥和卤饭。,5.412627,100.329361,vsmSelina,28/2/2020 Recommended by Tan Lee Chien (1/3/20 LCW) ,2018-08-02 00:36:29,2022-05-18 15:41:54,003448_1aa2018-08-05_12-33-23.jpg*003448_1saa2020-03-01_19-16-22.jpg*003448_1sab2020-03-01_19-16-22.jpg*003448_1sac2020-03-01_19-16-22.jpg*003448_1sad2020-03-01_19-16-22.jpg*003448_1sae2020-03-01_19-16-22.jpg*003448_1saf2020-03-01_19-16-22.jpg*003448_1sag2020-03-01_19-16-22.jpg*003448_1sah2020-03-01_19-16-22.jpg*003448_1sai2020-03-01_19-16-22.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1805921536160023,小炒RM7.00起，素蚝煎RM11.00起 ,#Chinese中餐 #Fried Noodles/Rice炒面饭类 #Everday Special每日特餐 #Weekend Special周末特餐 #Vegetarian Fried Oyster素蚝煎 ,#Restaurant餐厅 #Vegetarian素食 ,average一般,1,0
-4447,Vegetarian stall at All Five Restaurant & Food Court Centre 明心在5555美食阁,"No.2 Jalan Setia 3/3, Taman Setia Indah, 81100 Johor Bahru, Johor.",0143662918,Morning    Afternoon    Night    ,"Business Hour : 7.00am to 7.30pm 
+4447,Vegetarian stall at All Five Restaurant & Food Court Centre 明心在5555美食阁,"No.2 Jalan Setia 3/3, Taman Setia Indah, 81100 Johor Bahru, Johor.",143662918,Morning    Afternoon    Night    ,"Business Hour : 7.00am to 7.30pm 
 Rest day : Monday
 Updated 13/4/2022",Tel:0183622849,1.573831,103.756417,vsmAlice,.,2020-05-29 15:58:04,2022-04-13 14:44:30,004447_1aa2020-05-31_10-22-28.jpg*,https://www.facebook.com/groups/781347675284086/permalink/3138740322878131,面食类RM6.00起 ,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Rice饭类 #Fried Noodles/Rice炒面饭类 #Bakkuteh素肉骨茶 #Yong Tau Foo酿豆腐 ,#Hawker Stall档口 #Vegetarian素食 ,budget经济,0,1
-567,Vegetarian stall at Hou Fok Coffee House 素食档在食得福茶室,"No.383-C, Lorong Medan Pasar, Taman Sin Hoe, Bukit Baru, 75150 Melaka.",0162619811,Morning Afternoon ,"Business Hour : 7.30am to 2.00pm 
+567,Vegetarian stall at Hou Fok Coffee House 素食档在食得福茶室,"No.383-C, Lorong Medan Pasar, Taman Sin Hoe, Bukit Baru, 75150 Melaka.",162619811,Morning Afternoon ,"Business Hour : 7.30am to 2.00pm 
 Rest day : 2nd & 16th of lunar month 
 Updated 23/5/2022",Tel:0162615811 ,2.216782,102.266277,vsmAlice,0,2016-01-28 13:25:32,2022-05-23 11:13:33,000567_1aa2019-10-22_10-13-50.jpg*,https://www.facebook.com/groups/781347675284086/permalink/2514357325316437,小炒RM7.00起,#Chinese中餐 #Vegetarian Mixed Rice素杂饭 #Economy Noodles经济面 #Fried Noodles/Rice炒面饭类 #Everyday Special每日特餐 #Weekend Special周末特餐 ,#Hawker Stall档口 #Vegetarian素食 ,average一般,0,0
-1655,Fang Yuan 风味素食,"B20, Groud Floor, Off Jalan Haji Ahmad 4, 25200 Kuantan, Pahang.",0169637619,Morning Afternoon ,"Business Hour: 7.30am to 3.00pm 
+1655,Fang Yuan 风味素食,"B20, Groud Floor, Off Jalan Haji Ahmad 4, 25200 Kuantan, Pahang.",169637619,Morning Afternoon ,"Business Hour: 7.30am to 3.00pm 
 Rest day: Monday (if 1st & 15th of lunar month fall on Monday, next day will be their rest day)
 Updated 19/4/2022",Tel:0169637071,3.820699,103.330352,vsmAlice,.,2016-03-02 17:11:58,2022-05-19 10:38:17,001655_1aa2020-09-18_19-20-53.jpg*,https://www.facebook.com/groups/781347675284086/permalink/3840000419418781,小炒RM6.50起,#Chinese中餐 #Vegetarian Mixed Rice素杂饭 #Economy Noodles经济面 #Fried Noodles/Rice炒面饭类 #Noodles soup/noodles面汤/面食类 #Rice饭类 #Weekend Special周末特餐  ,#Hawker Stall档口 #Vegetarian素食 #Buffet自由餐 ,average一般,0,0
-402,L.C.Vegetarian Food & Organic Mart 绿源素食,"No.652A, Jalan Delima 5,  Taman Bukit Melaka, Bukit Beruang, 75450 Melaka.",062320563,Morning Afternoon Night ,"Business Hour : 10.30am to 2.00pm , 5.00pm to 9.00pm 
+402,L.C.Vegetarian Food & Organic Mart 绿源素食,"No.652A, Jalan Delima 5,  Taman Bukit Melaka, Bukit Beruang, 75450 Melaka.",62320563,Morning Afternoon Night ,"Business Hour : 10.30am to 2.00pm , 5.00pm to 9.00pm 
 Rest day : Monday 
 Updated 5/7/2022
 
 ",Tel:0166122663,2.24531,102.275053,vsmAlice,0,2016-01-23 15:03:37,2022-07-05 19:30:05,000402_1aa2017-07-12_09-51-40.jpg*000402_1aa2017-07-12_09-58-15.jpg*000402_1ab2017-07-12_09-58-15.jpg*000402_1ac2017-07-12_09-58-15.jpg*000402_1ad2017-07-12_09-58-15.jpg*000402_1ae2017-07-12_09-58-15.jpg*000402_1af2017-07-12_09-58-15.jpg*000402_1ag2017-07-12_09-58-15.jpg*000402_1ah2017-07-12_09-58-15.jpg*000402_1ai2017-07-12_09-58-15.jpg*000402_1aj2017-07-12_09-58-15.jpg*000402_1ak2017-07-12_09-58-15.jpg*000402_1al2017-07-12_09-58-15.jpg*000402_1am2017-07-12_09-58-15.jpg*000402_1an2017-07-12_09-58-15.jpg*000402_1ao2017-07-12_09-58-15.jpg*000402_1ap2017-07-12_09-58-15.jpg*000402_1aq2017-07-12_09-58-15.jpg*000402_1ar2017-07-12_09-58-15.jpg*000402_1as2017-07-12_09-58-15.jpg*000402_1at2017-07-12_09-58-15.jpg*000402_1aa2017-07-12_09-58-40.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1414460845306096,小炒RM8.00起,#Chinese中餐 #Ala Carte单座 ,#Restaurant餐厅 #Vegetarian素食 #Air-cond冷气 ,average一般,1,0
-4694,Crown Colony Cuisine at Jaya Shopping Centre,"L3-15, Jaya Shopping Centre, Jalan Professor Khoo Kay Kim, Petaling Jaya Section 14, 46100 Selangor.",0379321523,Morning    Afternoon    Night    ,"Business Hour : 10.30am to 8.00pm
+4694,Crown Colony Cuisine at Jaya Shopping Centre,"L3-15, Jaya Shopping Centre, Jalan Professor Khoo Kay Kim, Petaling Jaya Section 14, 46100 Selangor.",379321523,Morning    Afternoon    Night    ,"Business Hour : 10.30am to 8.00pm
 Rest day : Wednesday  
 Updated 14/4/2022",.,3.109331,101.636907,vsmAlice,,2020-12-03 23:36:15,2022-04-14 19:08:18,004694_1aa2020-12-04_08-09-26.jpg*,https://www.facebook.com/groups/781347675284086/permalink/4057970914288396,ala carte RM22.00 onwards,#Fusion无国界料理 #Ala Carte单座 ,#Restaurant餐厅 #Vegetarian素食 #Air-cond冷气 #Buffet自由餐 #Delivery外卖服务 #Credit Card信用卡 ,higher range偏高,0,0
-5155,U & Me,"174, Jalan Tasek Mutiara 2, Bandar Tasek Mutiara, 14120 Simpang Ampat, Penang.",01154167168,Afternoon    Night    ,"Business Hour : 12.00pm to 9.00pm
+5155,U & Me,"174, Jalan Tasek Mutiara 2, Bandar Tasek Mutiara, 14120 Simpang Ampat, Penang.",1154167168,Afternoon    Night    ,"Business Hour : 12.00pm to 9.00pm
 Rest day : Tueday
 Updated 2/9/2022",人手不足建议预定 ；周末有waffle burger set,5.278121,100.485322,vsmSelina,,2022-07-04 15:39:06,2022-09-02 18:00:51,005155_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/5771662372919233,关东煮套餐RM7.00起,#Chinese中餐 #Western西餐 #Everday Special每日特餐 #Weekend Special周末特餐 #Snack小吃 ,#Cafe咖啡厅 #Vegetarian素食 #Wifi无线网络 #Air-cond冷气 #Delivery外卖服务 ,average一般,0,0
-2030,Sayuran Yen-Yen 圆缘素食,"P-173, Jalan Ooi Kar Seng, 14300 Nibong Tebal, Pulau Pinang.",0124745275,Morning Afternoon ,"Business Hour : 7.00am to 2.00pm ; 1st & 15th of lunar month 6.00am to 2.00pm Rest day : Sunday and 2nd & 16th of lunar month 
+2030,Sayuran Yen-Yen 圆缘素食,"P-173, Jalan Ooi Kar Seng, 14300 Nibong Tebal, Pulau Pinang.",124745275,Morning Afternoon ,"Business Hour : 7.00am to 2.00pm ; 1st & 15th of lunar month 6.00am to 2.00pm Rest day : Sunday and 2nd & 16th of lunar month 
 Updated 22/5/2022",黄家城街印度廟对面,5.16756,100.476721,vsmSelina,已经顶起店面，但谢水金茶室招牌还在店里。,2016-06-06 14:13:58,2022-05-22 20:47:38,002030_1aa2019-08-24_18-46-03.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1039435682808616,面汤/面食类 RM4.50 起 ,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Vegetarian Mixed Rice素杂饭 #Economy Noodles经济面 #Everyday Special每日特餐 ,#Restaurant餐厅 #Vegetarian素食 #Buffet自由餐 ,budget经济,0,1
-5087,Roots,"No.1, Jalan Austin Heights 3, Taman Mount Austin, 81100 Johor Bahru, Johor.",01156928799,Morning    Afternoon    Night    ,"Business Hour : 11.00am to 10.00pm
+5087,Roots,"No.1, Jalan Austin Heights 3, Taman Mount Austin, 81100 Johor Bahru, Johor.",1156928799,Morning    Afternoon    Night    ,"Business Hour : 11.00am to 10.00pm
 Rest day : Wednesday
 Updated 12/7/2022",,1.559505,103.780984,vsmAlice,,2022-05-20 06:58:29,2022-07-12 16:54:34,005087_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/5660420044043467,ala carte RM15.00 onwards,#Western西餐 #Burger素汉堡 #Pizza披萨 #Spaghetti意大利面 #Bread面包 #Snack小吃 ,#Restaurant餐厅 #Vegetarian素食 #Wifi无线网络 #Air-cond冷气 #Credit Card信用卡 ,above average中上,0,0
-3746,Gan Ens Vegetarian Restaurant 感恩有您素菜馆,"No.9G, Jalan Pandan Indah 4/6, Pandan Indah, 55100 Kuala Lumpur.",0126932003,Morning    Afternoon       ,"Business Hour : 7.30am to 3.30pm 
+3746,Gan Ens Vegetarian Restaurant 感恩有您素菜馆,"No.9G, Jalan Pandan Indah 4/6, Pandan Indah, 55100 Kuala Lumpur.",126932003,Morning    Afternoon       ,"Business Hour : 7.30am to 3.30pm 
 Open daily 
 Updated 29/3/2022
 ",,3.130529,101.753515,vsmAlice,"same owner
 Gan En Vegetarian Restaurant 感恩有您斋菜馆",2019-02-18 12:21:32,2022-03-31 14:05:17,003746_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/2090623261023181,素杂饭RM3.50起,#Chinese中餐 #Vegetarian Mixed Rice素杂饭 #Economy Noodles经济面 #Everday Special每日特餐 ,#Restaurant餐厅 #Vegetarian素食 #Air-cond冷气 #Buffet自由餐 ,budget经济,0,1
-1584,Jufu Vegetarian 聚福素餐食家,"No.20 & 21, Jalan Tengah, Off Jalan Putera, 05100 Alor Setar, Kedah. ",047325208,Morning Afternoon Night ,"Business Hour : 10.00am to 3.00pm, 5.30pm to 9.00pm ; 1st & 15th of lunar month 8.00am to 9.00pm Rest day : Saturday (If 1st & 15th of lunar month fall on Saturday, next day will be their rest day.)
+1584,Jufu Vegetarian 聚福素餐食家,"No.20 & 21, Jalan Tengah, Off Jalan Putera, 05100 Alor Setar, Kedah. ",47325208,Morning Afternoon Night ,"Business Hour : 10.00am to 3.00pm, 5.30pm to 9.00pm ; 1st & 15th of lunar month 8.00am to 9.00pm Rest day : Saturday (If 1st & 15th of lunar month fall on Saturday, next day will be their rest day.)
 Updated 11/5/2022
 
 ","Tel:0164111530
 Opposite Casa Station 
 
 ",6.124838,100.363858,vsmSelina,.,2016-03-01 13:35:24,2022-05-11 18:49:16,001584_1aa2019-09-02_14-33-30.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1284161621669353,小炒 RM5.50 起,#Chinese中餐 #Vegetarian Mixed Rice素杂饭 #Chinese Dishes煮炒   ,#Restaurant餐厅 #Vegetarian素食 #Feast酒席 #Buffet自由餐 #Delivery外卖服务 ,budget经济,0,1
-448,Vegipai 新素派,"No.37A, Jalan Desa Bakti, Taman Desa, 58100 Kuala Lumpur. ",0379828184,Morning Afternoon Night ,"Business Hour : 11.00am to 9.00pm  
+448,Vegipai 新素派,"No.37A, Jalan Desa Bakti, Taman Desa, 58100 Kuala Lumpur. ",379828184,Morning Afternoon Night ,"Business Hour : 11.00am to 9.00pm  
 Open daily
 Updated 23/4/2022",Tel:0168284662,3.1028523,101.6843759,vsmAlice,0,2016-01-24 17:42:29,2022-05-27 20:38:52,000448_1aa2018-06-18_15-09-37.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1738287509590093,面食类RM11.90起,#Chinese中餐 #Western西餐 #Noodles Soup/Noodles面汤/面食类 #Ala Carte单座 #Chinese Dishes煮炒 #Pizza披萨 #Spaghetti意大利面 #Vegetarian Chops素扒 #Rojak #Snack小吃 ,#Cafe咖啡厅 #Vegetarian素食 #Wifi无线网络 #Air-cond冷气 #Feast酒席 #Buffet自由餐 #Credit Card信用卡 ,average一般,0,0
 4900,"Restoran Sayur-sayuran 
-鹿野苑素食料理坊","No.1G, Jalan Anggerik Vanilla U/31U, Kota Kemuning, 40460 Shah Alam, Selangor.",0351314779,Morning    Afternoon    Night    ,"Business Hour : 10.00am to 3.00pm , 6.00pm to 9.30pm
+鹿野苑素食料理坊","No.1G, Jalan Anggerik Vanilla U/31U, Kota Kemuning, 40460 Shah Alam, Selangor.",351314779,Morning    Afternoon    Night    ,"Business Hour : 10.00am to 3.00pm , 6.00pm to 9.30pm
 Rest day : Monday
 Updated 12/4/2022",Tel:0173751204,3.005729,101.536564,vsmAlice,,2021-11-07 20:25:51,2022-04-12 14:55:10,004900_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/5028503037235174,小炒RM9.00起,#Chinese中餐 #Chinese Dishes煮炒 #Porridge粥 ,#Restaurant餐厅 #Vegetarian素食 #Air-cond冷气 #Feast酒席 #Buffet自由餐 ,average一般,0,0
-1130,Wisma Than Hsiang 檀香寺  ,"No.132, Jalan Sultan Azlan Shah, 11900 Bayan Lepas, Pulau Pinang. "," 
-0109134882",Morning Afternoon ,"Servicing Hour : 9.00am to 1.30pm Open daily 
+1130,Wisma Than Hsiang 檀香寺  ,"No.132, Jalan Sultan Azlan Shah, 11900 Bayan Lepas, Pulau Pinang. ",109134882,Morning Afternoon ,"Servicing Hour : 9.00am to 1.30pm Open daily 
 Updated 18/4/2022
 
 ","Tel:046414822
@@ -58,21 +134,21 @@ Tel:046415523
 
 ",5.316266,100.286834,vsmSelina,"最后选择联系人 0124699550	
 ",2016-02-19 15:11:00,2022-04-18 17:22:09,001130_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/3831156513636505,随缘,#Chinese中餐 #Vegetarian Mixed Rice素杂饭 #Economy Noodles经济面 ,#Restaurant餐厅 #Vegetarian素食 ,budget经济,0,1
-1818,Spring Cafe 泉源饮食中心,"Lot 2795, Jalan Krokop 10A, 98000 Miri, Sarawak.",0165213983,Morning,"Business Hour : 5.00am to 10.00pm  
+1818,Spring Cafe 泉源饮食中心,"Lot 2795, Jalan Krokop 10A, 98000 Miri, Sarawak.",165213983,Morning,"Business Hour : 5.00am to 10.00pm  
 Open daily 
 Updated 24/5/2022",,4.426347,114.00109,vsmAlice,0,2016-03-22 20:37:52,2022-05-24 21:24:15,001818_aa.jpg*,https://www.facebook.com/groups/781347675284086/permalink/990736844345167,小炒RM4.50起,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Fried Noodles/Rice炒面饭类 #Weekend Special周末特餐 #Yong Tau Foo酿豆腐 ,#Restaurant餐厅 #Vegetarian素食 ,budget经济,0,1
-4929,Vegetarian stall at Restoran JB 匠心素食在JB 吹水茶餐室,"No.0130, Block 34, Jalan Pendekar 1, Taman Ungku Tun Aminah 81300, Skudai, Johor.",0167546226,Afternoon    Night    ,"Business Hour : 12.00pm to 10.00pm
+4929,Vegetarian stall at Restoran JB 匠心素食在JB 吹水茶餐室,"No.0130, Block 34, Jalan Pendekar 1, Taman Ungku Tun Aminah 81300, Skudai, Johor.",167546226,Afternoon    Night    ,"Business Hour : 12.00pm to 10.00pm
 Rest day : Saturday 
 Updated 4/4/2022",,1.51248,103.651045,vsmAlice,,2021-12-01 17:48:04,2022-05-18 14:12:09,004929_1aa2022-05-18_14-12-09.jpg*,https://www.facebook.com/groups/781347675284086/permalink/5112534088832068,面食类RM6.50起,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Rice饭类 #Burger素汉堡 #Bakkuteh素肉骨茶 ,#Hawker Stall档口 #Vegan纯素 #Vegetarian素食 #Buffet自由餐 #Delivery外卖服务 ,average一般,0,0
-3270,Roadside Vegetarian Indian stall at Taman Sentosa Klang,"Jalan Dato Yusuf Shahbudin 28, Taman Sentosa, 41200 Klang, Selangor. ",0102490688,Morning    ,"Business Hour : 6.45am to 9.00am 
+3270,Roadside Vegetarian Indian stall at Taman Sentosa Klang,"Jalan Dato Yusuf Shahbudin 28, Taman Sentosa, 41200 Klang, Selangor. ",102490688,Morning    ,"Business Hour : 6.45am to 9.00am 
 Rest day : Monday , Saturday & alternate Sunday 
 Updated 24/3/2022
 ",In front  Joo Joo Kopitiam,3.006579,101.463591,vsmAlice,,2018-04-12 20:11:51,2022-03-24 14:16:51,003270_1aa2018-04-12_20-21-42.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1669436239808554,Nasi lemak RM3.00起,#Indian印度餐 #Economy Noodles经济面  ,#Hawker Stall档口 #Vegan纯素 ,budget经济,0,1
-2697,Vegetarian stall at Pasar MPAJ Pandan Jaya 素食档在MPAJ Pandan Jaya 的巴刹,"Jalan Pandan 3, Pandan Jaya, 55100 Kuala Lumpur.",0166711281,Morning    ,"Business Hour : 6.00am to 10.30am  
+2697,Vegetarian stall at Pasar MPAJ Pandan Jaya 素食档在MPAJ Pandan Jaya 的巴刹,"Jalan Pandan 3, Pandan Jaya, 55100 Kuala Lumpur.",166711281,Morning    ,"Business Hour : 6.00am to 10.30am  
 Rest day : Monday 
 Updated 29/3/2022",.,3.131044,101.738512,vsmAlice,"0178818615
 ",2017-05-12 11:01:09,2022-03-30 20:04:34,002697_1aa2019-06-23_11-28-52.jpg*,https://www.facebook.com/groups/781347675284086/permalink/2292194467532725,经济面RM2.80起,#Chinese中餐 #Economy Noodles经济面 ,#Hawker Stall档口 #Vegetarian素食 ,average一般,0,0
-3574,Min See Vegetarian 明喜素食馆," Jalan Tuaran Bypass, Inanam Laut, 88450 Kota Kinabalu, Sabah.",0162261004,Morning    Afternoon    ,"Business Hour : 6.45am to 2.45pm 
+3574,Min See Vegetarian 明喜素食馆," Jalan Tuaran Bypass, Inanam Laut, 88450 Kota Kinabalu, Sabah.",162261004,Morning    Afternoon    ,"Business Hour : 6.45am to 2.45pm 
 Rest day : Sunday & Public Holidays 
 Updated 24/5/2022",Tel:0168322822,5.999876,116.126487,vsmAlice,,2018-10-30 13:56:50,2022-05-24 16:32:45,003574_aa.jpg*003574_ab.jpg*003574_ac.jpg*003574_ad.jpg*003574_ae.jpg*,https://www.facebook.com/groups/781347675284086/permalink/1922445967840912,小炒RM6.50起,#Chinese中餐 #Noodles Soup/Noodles面汤/面食类 #Vegetarian Mixed Rice素杂饭 #Economy Noodles经济面 #Chinese Dishes煮炒 #Everyday Special每日特餐 #Yong Tau Foo酿豆腐 #Snack小吃 ,#Restaurant餐厅 #Vegetarian素食 #Air-cond冷气 ,average一般,0,0
 421,Imperial Art Cottage 文献坊,"No.27, Jalan Radin Anum 2, Sri Petaling 57000, Kuala Lumpur.",138892705,Afternoon Night ,"Business Hour : 11.30am to to 9.00pm 
