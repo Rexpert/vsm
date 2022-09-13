@@ -32,10 +32,10 @@ def scrape(pid):
     res = s.post(URL, params=params)
     try:
         d = res.json()['product']
+        new_data = pd.DataFrame(d)
     except KeyError as e:
         # pid 5082 not found in database but appear when overall searching
-        return pd.DataFrame(columns=['pid'])
-    new_data = pd.DataFrame(d)
+        new_data = pd.DataFrame(columns=['pid'])
     return new_data
 
 
