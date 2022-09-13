@@ -30,7 +30,11 @@ def scrape(pid):
         'shopType': '0'
     }
     res = s.post(URL, params=params)
-    new_data = pd.DataFrame(res.json()['product'])
+    try:
+        d = res.json()['product']
+    except KeyError:
+        sys.exit(f'pid: {pid}')
+    new_data = pd.DataFrame(d)
     return new_data
 
 
