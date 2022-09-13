@@ -33,8 +33,8 @@ def scrape(pid):
     try:
         d = res.json()['product']
     except KeyError as e:
-        raise KeyError(f'pid: {pid}\n'
-                       f'res: {res.text}')
+        # pid 5082 not found in database but appear when overall searching
+        return pd.DataFrame(columns=['pid'])
     new_data = pd.DataFrame(d)
     return new_data
 
