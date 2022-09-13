@@ -62,11 +62,14 @@ def read_data():
 if __name__ == '__main__':
     pid, df = read_data()
     scraped = set(df.pid.astype(int))
-    if len(scraped) < len(pid):
-        to_sc = random.sample(list(pid - scraped), 20)
+    dif = list(pid - scraped)
+    if len(dif) > 1:
+        to_sc = random.sample(dif, 20)
         result = scrape_all(to_sc)
         result.extend([df])
         result = pd.concat(result)
         result.to_csv(r'./output/scrape.csv', index=False)
+    elif (len(dif) == 1 and 5082 in dif):
+        sys.exit('Finished Scraping..., only left pid 5082 fail to retrieve')
     else:
         sys.exit('Finished Scraping...')
