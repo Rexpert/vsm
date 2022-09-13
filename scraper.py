@@ -33,19 +33,18 @@ def scrape(pid):
     try:
         d = res.json()['product']
     except KeyError as e:
-        print(f'pid: {pid}')
-        print(f'res: {res.text}')
-        raise e
+        raise KeyError(f'pid: {pid}\n'
+                       f'res: {res.text}')
     new_data = pd.DataFrame(d)
     return new_data
 
 
 def scrape_all(to_sc):
     with mp.Pool(processes=mp.cpu_count()) as pool:
-        try:
-            result = pool.map(scrape, to_sc)
-        except KeyError:
-            sys.exit('Unknown Requests Respond')
+        # try:
+        result = pool.map(scrape, to_sc)
+        # except KeyError:
+        #     sys.exit('Unknown Requests Respond')
     return result
 
 
