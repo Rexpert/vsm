@@ -5,6 +5,7 @@ import random
 import sys
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 from facebook_scraper import get_posts, set_user_agent
 
@@ -50,8 +51,12 @@ def scrape(urls):
 
 
 def scrape_all(urls):
-    with mp.Pool(processes=mp.cpu_count()) as pool:
-        results = pool.map(scrape, urls)
+    n = mp.cpu_count()
+    # split urls 1D-array into n-length 2D-array
+    resized_urls = np.resize(urls, (n, int(len(urls)/n))).tolist()
+    resized_urls[-1].extend(urls[-(len(urls)%n):])
+    with mp.Pool(processes=n) as pool:
+        results = pool.map(scrape, resized_urls)
     return results
 
 
@@ -63,10 +68,7 @@ if __name__ == '__main__':
             to_sc = random.sample(dif, SAMPLE_COUNT)
         else:
             to_sc = dif
-        try:
-            results = scrape_all(to_sc)
-        except:
-            raise ValueError(f'{to_sc}... \n{dif}')
+        results = scrape_all(to_sc)
         results.extend([fb_data])
         results = pd.concat(results)
         # results.to_csv(FB_DATA_PATH, index=False)
