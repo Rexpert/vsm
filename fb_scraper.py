@@ -56,7 +56,7 @@ def scrape_all(urls):
 
 if __name__ == '__main__':
     vsm_data, fb_data = read_data()
-    dif = find_unscraped(vsm_data.fbLink, fb_data.original_request_url)
+    dif = find_unscraped(vsm_data.fbLink.str.strip(), fb_data.original_request_url)
     if len(dif) > 0:
         if len(dif) > SAMPLE_COUNT:
             to_sc = random.sample(dif, SAMPLE_COUNT)
