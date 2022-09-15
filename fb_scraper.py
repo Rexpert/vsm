@@ -86,6 +86,18 @@ if __name__ == '__main__':
             with open(FAIL_PATH, 'a+') as f:
                 f.write('\n'.join(new_fail))
                 f.write('\n')
+        # fail.extend(new_fail)
+        # import re
+        # fb_data = results.copy()
+        # fail = [re.sub(r'[^\d]+\/(\d+)\/[^\d]+\/(\d+)', r'\g<1>_\g<2>', f) for f in fail]
+        # results = scrape_all(fail)
+        # results.extend([fb_data])
+        # results = pd.concat(results)
+        # new_fail = list(set(fail) - set(results.original_request_url))
+        # if len(new_fail) > 0:
+        #     with open(FAIL_PATH, 'w') as f:
+        #         f.write('\n'.join(new_fail))
+        #         f.write('\n')
         results.to_csv(FB_DATA_PATH, index=False)
     else:
         sys.exit('Finished Scraping...')
