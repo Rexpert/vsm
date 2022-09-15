@@ -84,6 +84,7 @@ if __name__ == '__main__':
         new_fail = list(set(to_sc) - set(results.original_request_url))
         with open(FAIL_PATH, 'a+') as f:
             f.write('\n'.join(new_fail))
+            f.write('\n')
         results.to_csv(FB_DATA_PATH, index=False)
     else:
         sys.exit('Finished Scraping...')
