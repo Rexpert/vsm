@@ -12,7 +12,7 @@ from facebook_scraper import get_posts, set_user_agent
 SECRET_PATH = str(Path.home() / 'secrets' / 'facebook.com_cookies.txt')
 VSM_DATA_PATH = r'./output/scrape.csv'
 FB_DATA_PATH = r'./output/fb_scrape.csv'
-FAIL_PATH = r'./output/fb_fail.csv'
+FAIL_PATH = r'./output/fb_fail.txt'
 SAMPLE_COUNT = 50
 
 set_user_agent(
