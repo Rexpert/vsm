@@ -13,7 +13,7 @@ jobs:
 
     - name: Decrypt FB Login Session Cookies
       run: |
-        cd secrets
+        cd secret
         ./decrypt_secret.sh
         cd ..
       env: 
