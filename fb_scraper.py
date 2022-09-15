@@ -27,7 +27,7 @@ def read_data():
         fb_data = pd.DataFrame(columns=['original_request_url'])
     try:
         with open(FAIL_PATH, 'r') as f:
-            fail = f.readlines()
+            fail = f.read().splitlines()
     except FileNotFoundError:
         fail = []
     return vsm_data, fb_data, fail
