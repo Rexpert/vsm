@@ -12,6 +12,7 @@ from facebook_scraper import get_posts, set_user_agent
 SECRET_PATH = str(Path.home() / 'secrets' / 'facebook.com_cookies.txt')
 VSM_DATA_PATH = r'./output/scrape.csv'
 FB_DATA_PATH = r'./output/fb_scrape.csv'
+FAIL_PATH = r'./output/fb_fail.csv'
 SAMPLE_COUNT = 50
 
 set_user_agent(
@@ -24,12 +25,19 @@ def read_data():
         fb_data = pd.read_csv(FB_DATA_PATH)
     except FileNotFoundError:
         fb_data = pd.DataFrame(columns=['original_request_url'])
-    return vsm_data, fb_data
+    try:
+        with open(FAIL_PATH, 'r') as f:
+            fail = f.readlines()
+    except FileNotFoundError:
+        fail = []
+    return vsm_data, fb_data, fail
 
 
-def find_unscraped(vsm_urls, fb_urls):
+def find_unscraped(vsm_urls, fb_urls, fail):
     # return which fb.original_request_url is not in vsm.fbLink
-    return vsm_urls[~vsm_urls.isin(fb_urls)].to_list()
+    dif = vsm_urls[~vsm_urls.isin(fb_urls)].to_list()
+    dif = set(dif) - set(fail)
+    return list(dif)
 
 
 def scrape(urls):
@@ -63,8 +71,8 @@ def scrape_all(urls):
 
 
 if __name__ == '__main__':
-    vsm_data, fb_data = read_data()
-    dif = find_unscraped(vsm_data.fbLink.str.strip(), fb_data.original_request_url)
+    vsm_data, fb_data, fail = read_data()
+    dif = find_unscraped(vsm_data.fbLink.str.strip(), fb_data.original_request_url, fail)
     if len(dif) > 0:
         if len(dif) > SAMPLE_COUNT:
             to_sc = random.sample(dif, SAMPLE_COUNT)
@@ -73,8 +81,10 @@ if __name__ == '__main__':
         results = scrape_all(to_sc)
         results.extend([fb_data])
         results = pd.concat(results)
+        new_fail = list(set(to_sc) - set(results.original_request_url))
+        with open(FAIL_PATH, 'a+') as f:
+            f.write('\n'.join(new_fail))
         results.to_csv(FB_DATA_PATH, index=False)
-        print(results)
     else:
         sys.exit('Finished Scraping...')
         
