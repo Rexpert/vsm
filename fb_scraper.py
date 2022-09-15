@@ -71,7 +71,7 @@ if __name__ == '__main__':
         results = scrape_all(to_sc)
         results.extend([fb_data])
         results = pd.concat(results)
-        # results.to_csv(FB_DATA_PATH, index=False)
+        results.to_csv(FB_DATA_PATH, index=False)
         print(results)
     else:
         sys.exit('Finished Scraping...')
