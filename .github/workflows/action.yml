@@ -1,4 +1,4 @@
-name: Scrape Veggie-Go
+name: Scrape FB
 
 on:
     workflow_dispatch
@@ -10,6 +10,14 @@ jobs:
 
     - name: checkout repo content
       uses: actions/checkout@v2
+
+    - name: Decrypt FB Login Session Cookies
+      run: |
+        cd secrets
+        ./decrypt_secret.sh
+        cd ..
+      env: 
+        SECRET_PASSPHRASE = ${{ secrets.SECRET_PASSPHRASE }}
 
     - name: setup python
       uses: actions/setup-python@v4
@@ -27,5 +35,5 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with: 
         commit_message: ':bento: Update Data'
-        branch: add-data
+        branch: add-fb-data
         create_branch: true
