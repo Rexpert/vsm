@@ -6,15 +6,15 @@ import sys
 from pathlib import Path
 
 import pandas as pd
-# from facebook_scraper import get_posts, set_user_agent
+from facebook_scraper import get_posts, set_user_agent
 
 SECRET_PATH = str(Path.home() / 'secrets' / 'facebook.com_cookies.txt')
 VSM_DATA_PATH = r'./output/scrape.csv'
 FB_DATA_PATH = r'./output/fb_scrape.csv'
-SAMPLE_COUNT = 15
+SAMPLE_COUNT = 50
 
-# set_user_agent(
-#     "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
+set_user_agent(
+    "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
 
 
 def read_data():
@@ -34,18 +34,18 @@ def find_unscraped(vsm_urls, fb_urls):
 def scrape(urls):
     now = pd.Timestamp.now()
     col = ['original_request_url', 'time', 'reaction_count']
-    try:
-        gen = get_posts(post_urls=urls, cookies=SECRET_PATH)
-        ls_gen = list(gen)
-        result = (
-            pd
-            .DataFrame(ls_gen)
-            .loc[:, col]
-            .assign(scrape=now)
-        )
-    except:
-        raise ValueError(urls)
-        result = pd.DataFrame(columns=col)
+    # try:
+    gen = get_posts(post_urls=urls, cookies=SECRET_PATH)
+    ls_gen = list(gen)
+    result = (
+        pd
+        .DataFrame(ls_gen)
+        .loc[:, col]
+        .assign(scrape=now)
+    )
+    # except:
+    #     raise ValueError(urls)
+    #     result = pd.DataFrame(columns=col)
     return result
 
 
@@ -63,7 +63,10 @@ if __name__ == '__main__':
             to_sc = random.sample(dif, SAMPLE_COUNT)
         else:
             to_sc = dif
-        results = scrape_all(to_sc)
+        try:
+            results = scrape_all(to_sc)
+        except:
+            raise ValueError(f'{to_sc}... \n{dif}')
         results.extend([fb_data])
         results = pd.concat(results)
         # results.to_csv(FB_DATA_PATH, index=False)
