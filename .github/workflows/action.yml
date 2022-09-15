@@ -14,7 +14,7 @@ jobs:
     - name: Decrypt FB Login Session Cookies
       run: |
         cd secret
-        ./decrypt_secret.sh
+        ./decrypt.sh
         cd ..
       env: 
         SECRET_PASSPHRASE: ${{ secrets.SECRET_PASSPHRASE }}
