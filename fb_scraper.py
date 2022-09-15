@@ -35,7 +35,7 @@ def scrape(urls):
     now = pd.Timestamp.now()
     col = ['original_request_url', 'time', 'reaction_count']
     # try:
-    gen = get_posts(urls, SECRET_PATH)
+    gen = get_posts(post_urls=urls, cookies=SECRET_PATH)
     ls_gen = list(gen)
     result = (
         pd
