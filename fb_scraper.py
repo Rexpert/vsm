@@ -56,7 +56,7 @@ def scrape_all(urls):
     # split urls 1D-array into n-length 2D-array
     resized_urls = np.resize(urls, (n, int(len(urls)/n))).tolist()
     resized_urls[-1].extend(urls[-(len(urls)%n):])
-    raise ValueError(f'{len(resized_urls)}, {len(resized_urls[0])}, {len(resized_urls[-1])}')
+    raise ValueError(f'{len(urls)}')
     with mp.Pool(processes=n) as pool:
         results = pool.map(scrape, resized_urls)
     return results
