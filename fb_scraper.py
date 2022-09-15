@@ -82,9 +82,10 @@ if __name__ == '__main__':
         results.extend([fb_data])
         results = pd.concat(results)
         new_fail = list(set(to_sc) - set(results.original_request_url))
-        with open(FAIL_PATH, 'a+') as f:
-            f.write('\n'.join(new_fail))
-            f.write('\n')
+        if len(new_fail) > 0:
+            with open(FAIL_PATH, 'a+') as f:
+                f.write('\n'.join(new_fail))
+                f.write('\n')
         results.to_csv(FB_DATA_PATH, index=False)
     else:
         sys.exit('Finished Scraping...')
