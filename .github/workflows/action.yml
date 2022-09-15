@@ -17,7 +17,7 @@ jobs:
         ./decrypt_secret.sh
         cd ..
       env: 
-        SECRET_PASSPHRASE = ${{ secrets.SECRET_PASSPHRASE }}
+        SECRET_PASSPHRASE: ${{ secrets.SECRET_PASSPHRASE }}
 
     - name: setup python
       uses: actions/setup-python@v4
