@@ -43,19 +43,19 @@ def find_unscraped(vsm_urls, fb_urls, fail):
 def scrape(urls):
     now = pd.Timestamp.now()
     col = ['original_request_url', 'time', 'reaction_count']
-    # try:
-    gen = get_posts(post_urls=urls, cookies=SECRET_PATH)
-    ls_gen = list(gen)
-    result = (
-        pd
-        .DataFrame(ls_gen)
-        .loc[:, col]
-        .dropna()
-        .assign(scrape=now)
-    )
-    # except:
-    #     raise ValueError(urls)
-    #     result = pd.DataFrame(columns=col)
+    try:
+        gen = get_posts(post_urls=urls, cookies=SECRET_PATH)
+        ls_gen = list(gen)
+        result = (
+            pd
+            .DataFrame(ls_gen)
+            .loc[:, col]
+            .dropna()
+            .assign(scrape=now)
+        )
+    except:
+        raise ValueError(urls)
+        result = pd.DataFrame(columns=col)
     return result
 
 
@@ -90,7 +90,10 @@ if __name__ == '__main__':
         import re
         fb_data = results.copy()
         fail = [re.sub(r'[^\d]+\/(\d+)\/[^\d]+\/(\d+)', r'\g<1>_\g<2>', f) for f in fail]
-        results = scrape_all(fail)
+        try:
+            results = scrape_all(fail)
+        except:
+            raise ValueError(fail)
         results.extend([fb_data])
         results = pd.concat(results)
         new_fail = list(set(fail) - set(results.original_request_url))
