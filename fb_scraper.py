@@ -54,7 +54,7 @@ def scrape(urls):
             .assign(scrape=now)
         )
     except:
-        raise ValueError(urls)
+        # raise ValueError(urls)
         result = pd.DataFrame(columns=col)
     return result
 
@@ -89,10 +89,7 @@ if __name__ == '__main__':
         import re
         fb_data = results.copy()
         fail = [re.sub(r'[^\d]+\/(\d+)\/[^\d]+\/(\d+)', r'\g<1>_\g<2>', f) for f in fail]
-        try:
-            results = scrape_all(fail, n=len(fail))
-        except:
-            raise ValueError(fail)
+        results = scrape_all(fail, n=len(fail))
         results.extend([fb_data])
         results = pd.concat(results)
         new_fail = list(set(fail) - set(results.original_request_url))
