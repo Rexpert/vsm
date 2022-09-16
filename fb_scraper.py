@@ -90,7 +90,7 @@ if __name__ == '__main__':
         fb_data = results.copy()
         fail = [re.sub(r'[^\d]+\/(\d+)\/[^\d]+\/(\d+)', r'\g<1>_\g<2>', f) for f in fail]
         try:
-            results = scrape_all(fail)
+            results = scrape_all(fail, n=len(fail))
         except:
             raise ValueError(fail)
         results.extend([fb_data])
