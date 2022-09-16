@@ -59,8 +59,7 @@ def scrape(urls):
     return result
 
 
-def scrape_all(urls):
-    n = mp.cpu_count()
+def scrape_all(urls, n=mp.cpu_count()):
     # split urls 1D-array into n-length 2D-array
     resized_urls = np.resize(urls, (n, int(len(urls)/n))).tolist()
     if len(urls)%n != 0:
