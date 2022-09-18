@@ -75,7 +75,7 @@ def scrape(driver, url):
                 continue
         return pd.DataFrame(dict(original_request_url=url, time=post_time, reaction_count=like, scrape=now), index=[0])
     except Exception as e:
-        save_screenshot(driver, 'screenshot.png')
+        save_screenshot(driver, r'./screenshot.png')
         raise e
         return pd.DataFrame(columns=['original_request_url'])
 
