@@ -34,6 +34,7 @@ jobs:
     - name: run python
       run: python fb_fail_scraper.py
       env:
+        EMAIL: ${{ secrets.EMAIL }}
         PASSWORD: ${{ secrets.PASSWORD }}
 
     - name: auto commit
