@@ -1,3 +1,4 @@
 pandas
 facebook_scraper
+selenium==3.141.0
 # requests
