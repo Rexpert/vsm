@@ -87,6 +87,7 @@ def save_screenshot(driver: Chrome, path: str = '/tmp/screenshot.png') -> None:
     required_height = driver.execute_script('return document.body.parentNode.scrollHeight')
     driver.set_window_size(required_width, required_height)
     # driver.save_screenshot(path)  # has scrollbar
+    Path(path).unlink(missing_ok=True)
     driver.find_element_by_tag_name('body').screenshot(path)  # avoids scrollbar
     driver.set_window_size(original_size['width'], original_size['height'])
 
