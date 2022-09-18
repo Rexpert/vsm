@@ -101,7 +101,7 @@ if __name__ == '__main__':
     results.extend([fb_scraped])
     results = pd.concat(results, ignore_index=True)
     results.to_csv(r'./output/fb_scrape.csv', index=False)
-    fail = list(set(fail) - set(results.original_scraped_url))
+    fail = list(set(fail) - set(results.original_request_url))
     if len(fail) > 0:
         with open(r'./output/fb_fail.txt', 'w') as f:
             f.write('\n'.join(fail))
