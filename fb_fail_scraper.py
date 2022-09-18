@@ -60,7 +60,7 @@ def read_data():
     return fail, scraped
 
 
-def scrape(url):
+def scrape(driver, url):
     try:
         driver.get(url)
         now = pd.Timestamp.now()
@@ -92,7 +92,7 @@ def save_screenshot(driver: Chrome, path: str = '/tmp/screenshot.png') -> None:
 
 save_screenshot(driver, 'screenshot.png')
 
-def scrape_all(urls):
+def scrape_all(driver, urls):
     driver.get(urls[0])
     time.sleep(2)
     password = driver.find_elements_by_css_selector('input[name="pass"]')
@@ -102,7 +102,7 @@ def scrape_all(urls):
         time.sleep(5)
     results = []
     for url in urls:
-        results.append(scrape(url))
+        results.append(scrape(driver, url))
     return results
 
 
@@ -110,7 +110,7 @@ if __name__ == '__main__':
     fail, fb_scraped = read_data()
     driver = init_driver()
     add_cookie(driver)
-    results = scrape_all(fail)
+    results = scrape_all(driver, fail)
     driver.quit()
     results.extend([fb_scraped])
     results = pd.concat(results, ignore_index=True)
