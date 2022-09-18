@@ -100,6 +100,7 @@ def scrape_all(driver, urls):
         time.sleep(5)
     results = []
     save_screenshot(driver, r'./screenshot1.png')
+    raise Exception
     for url in urls:
         results.append(scrape(driver, url))
     return results
