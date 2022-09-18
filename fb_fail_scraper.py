@@ -43,10 +43,6 @@ def add_cookie(driver):
     for c in cookie:
         driver.add_cookie({'name': c.name, 'value': c.value,
                           'path': c.path, 'expires': c.expires})
-    driver.get('https://m.facebook.com/groups/781347675284086/permalink/5959423500809785')
-    time.sleep(5)
-    save_screenshot(driver, r'./screenshot.png')
-    raise Exception
 
 
 def read_data():
@@ -98,6 +94,7 @@ def scrape_all(driver, urls):
     time.sleep(2)
     password = driver.find_elements_by_css_selector('input[name="pass"]')
     if len(password) > 0:
+        driver.find_element_by_css_selector('input[name="email"]').send_keys(os.environ['EMAIL'])
         password[0].send_keys(os.environ['PASSWORD'])
         password[0].send_keys(Keys.ENTER)
         time.sleep(5)
