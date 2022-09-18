@@ -90,7 +90,6 @@ def save_screenshot(driver: Chrome, path: str = '/tmp/screenshot.png') -> None:
     driver.find_element_by_tag_name('body').screenshot(path)  # avoids scrollbar
     driver.set_window_size(original_size['width'], original_size['height'])
 
-save_screenshot(driver, 'screenshot.png')
 
 def scrape_all(driver, urls):
     driver.get(urls[0])
