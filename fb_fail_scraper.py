@@ -98,6 +98,7 @@ def scrape_all(driver, urls):
         password[0].send_keys(os.environ['PASSWORD'])
         password[0].send_keys(Keys.ENTER)
         time.sleep(5)
+    save_screenshot(driver, r'./screenshot.png')
     results = []
     for url in urls:
         results.append(scrape(driver, url))
