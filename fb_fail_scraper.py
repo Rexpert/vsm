@@ -81,7 +81,8 @@ def scrape(driver, url):
 
 
 def save_screenshot(driver: Chrome, path: str = '/tmp/screenshot.png') -> None:
-    # Ref: https://stackoverflow.com/a/52572919/
+    # Ref: https://stackoverflow.com/a/52572919/\
+    raise Exception
     original_size = driver.get_window_size()
     required_width = driver.execute_script('return document.body.parentNode.scrollWidth')
     required_height = driver.execute_script('return document.body.parentNode.scrollHeight')
