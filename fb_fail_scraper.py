@@ -68,7 +68,7 @@ def scrape(driver, url):
         article = driver.find_element_by_css_selector('*[role="article"]')
         like = article.find_element_by_class_name('nnzkd6d7').text
         like = float(like)
-        date_el = driver.find_element_by_xpath('//span[@class="cuenuc4f"][last()]/preceding-sibling::span[1]')
+        date_el = driver.find_element_by_xpath('//span[@class="cuenuc4f"][last()]/preceding-sibling::span[not(@class)]')
         ActionChains(driver).move_to_element(date_el).perform()
         time.sleep(1)
         post_time = driver.find_element_by_css_selector('div[class*="alzwoclg cqf1kptm om3e55n1 kyj84mfa cofpoq2j"] > div:nth-child(2)').text
