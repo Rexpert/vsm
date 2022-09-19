@@ -7,6 +7,7 @@ import pandas as pd
 from facebook_scraper import parse_cookie_file
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common.keys import Keys
@@ -62,17 +63,15 @@ def read_data():
 
 def scrape(driver, url):
     try:
-        driver.get(url)
         now = pd.Timestamp.now()
         time.sleep(2)
         article = driver.find_element_by_css_selector('*[role="article"]')
         like = article.find_element_by_class_name('nnzkd6d7').text
-        for a in article.find_elements_by_css_selector('a[role="link"]'):
-            try:
-                post_time = pd.to_datetime(a.get_attribute('aria-label'))
-                break
-            except:
-                continue
+        like = float(like)
+        date_el = driver.find_element_by_xpath('//span[@class="cuenuc4f"][2]/following-sibling::span')
+        ActionChains(driver).move_to_element(date_el).perform()
+        post_time = driver.find_element_by_css_selector('div[class*="alzwoclg cqf1kptm om3e55n1 kyj84mfa cofpoq2j"] > div:nth-child(2)').text
+        post_time = pd.to_datetime(post_time) # + pd.Timedelta(8, 'h')
         return pd.DataFrame(dict(original_request_url=url, time=post_time, reaction_count=like, scrape=now), index=[0])
     except Exception as e:
         return pd.DataFrame(columns=['original_request_url'])
@@ -98,10 +97,12 @@ def scrape_all(driver, urls):
         password[0].send_keys(os.environ['PASSWORD'])
         password[0].send_keys(Keys.ENTER)
         time.sleep(5)
-    # save_screenshot(driver, r'./screenshot.png')
-    # raise Exception
+    save_screenshot(driver, r'./screenshot.png')
+    raise Exception
     results = []
-    for url in urls:
+    for i, url in enumerate(urls):
+        if i != 0:
+            driver.get(url)
         results.append(scrape(driver, url))
     return results
 
@@ -109,7 +110,7 @@ def scrape_all(driver, urls):
 if __name__ == '__main__':
     fail, fb_scraped = read_data()
     driver = init_driver()
-    add_cookie(driver)
+    # add_cookie(driver)
     results = scrape_all(driver, fail)
     driver.quit()
     results.extend([fb_scraped])
