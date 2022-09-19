@@ -62,20 +62,21 @@ def read_data():
 
 
 def scrape(driver, url):
-    # try:
-    now = pd.Timestamp.now()
-    time.sleep(2)
-    article = driver.find_element_by_css_selector('*[role="article"]')
-    like = article.find_element_by_class_name('nnzkd6d7').text
-    like = float(like)
-    date_el = driver.find_element_by_xpath('//span[@class="cuenuc4f"][last()]/preceding-sibling::span[1]')
-    ActionChains(driver).move_to_element(date_el).perform()
-    time.sleep(1)
-    post_time = driver.find_element_by_css_selector('div[class*="alzwoclg cqf1kptm om3e55n1 kyj84mfa cofpoq2j"] > div:nth-child(2)').text
-    post_time = pd.to_datetime(post_time) # + pd.Timedelta(8, 'h')
-    return pd.DataFrame(dict(original_request_url=url, time=post_time, reaction_count=like, scrape=now), index=[0])
-    # except Exception as e:
-    #     return pd.DataFrame(columns=['original_request_url'])
+    try:
+        now = pd.Timestamp.now()
+        time.sleep(2)
+        article = driver.find_element_by_css_selector('*[role="article"]')
+        like = article.find_element_by_class_name('nnzkd6d7').text
+        like = float(like)
+        date_el = driver.find_element_by_xpath('//span[@class="cuenuc4f"][last()]/preceding-sibling::span[1]')
+        ActionChains(driver).move_to_element(date_el).perform()
+        time.sleep(1)
+        post_time = driver.find_element_by_css_selector('div[class*="alzwoclg cqf1kptm om3e55n1 kyj84mfa cofpoq2j"] > div:nth-child(2)').text
+        post_time = pd.to_datetime(post_time) # + pd.Timedelta(8, 'h')
+        return pd.DataFrame(dict(original_request_url=url, time=post_time, reaction_count=like, scrape=now), index=[0])
+    except Exception as e:
+        raise Exception(url)
+        return pd.DataFrame(columns=['original_request_url'])
 
 
 def save_screenshot(driver: Chrome, path: str = '/tmp/screenshot.png') -> None:
