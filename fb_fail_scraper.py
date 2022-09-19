@@ -71,8 +71,9 @@ def scrape(driver, url):
     date_el = driver.find_element_by_xpath('//span[@class="cuenuc4f"][2]/following-sibling::span')
     ActionChains(driver).move_to_element(date_el).perform()
     post_time = driver.find_element_by_css_selector('div[class*="alzwoclg cqf1kptm om3e55n1 kyj84mfa cofpoq2j"] > div:nth-child(2)').text
-    post_time = pd.to_datetime(post_time) # + pd.Timedelta(8, 'h')
+    save_screenshot(driver, r'./screenshot.png')
     raise Exception(post_time)
+    post_time = pd.to_datetime(post_time) # + pd.Timedelta(8, 'h')
     return pd.DataFrame(dict(original_request_url=url, time=post_time, reaction_count=like, scrape=now), index=[0])
     # except Exception as e:
     #     return pd.DataFrame(columns=['original_request_url'])
