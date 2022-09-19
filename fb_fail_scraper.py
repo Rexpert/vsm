@@ -75,7 +75,6 @@ def scrape(driver, url):
         post_time = pd.to_datetime(post_time) # + pd.Timedelta(8, 'h')
         return pd.DataFrame(dict(original_request_url=url, time=post_time, reaction_count=like, scrape=now), index=[0])
     except Exception as e:
-        raise Exception(url)
         return pd.DataFrame(columns=['original_request_url'])
 
 
