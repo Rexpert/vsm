@@ -70,6 +70,7 @@ def scrape(driver, url):
     like = float(like)
     date_el = driver.find_element_by_xpath('//span[@class="cuenuc4f"][2]/following-sibling::span')
     ActionChains(driver).move_to_element(date_el).perform()
+    time.sleep(1)
     post_time = driver.find_element_by_css_selector('div[class*="alzwoclg cqf1kptm om3e55n1 kyj84mfa cofpoq2j"] > div:nth-child(2)').text
     save_screenshot(driver, r'./screenshot.png')
     raise Exception(post_time)
