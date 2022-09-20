@@ -1,4 +1,4 @@
-name: Scrape FB Fail
+name: Scrape Veggie-Go
 
 on:
     workflow_dispatch
@@ -11,17 +11,6 @@ jobs:
     - name: checkout repo content
       uses: actions/checkout@v2
 
-    - name: setup chromedriver
-      uses: nanasess/setup-chromedriver@v1
-
-    - name: Decrypt FB Login Session Cookies
-      run: |
-        cd secret
-        ./decrypt.sh
-        cd ..
-      env: 
-        SECRET_PASSPHRASE: ${{ secrets.SECRET_PASSPHRASE }}
-
     - name: setup python
       uses: actions/setup-python@v4
       with:
@@ -32,15 +21,11 @@ jobs:
       run: pip install -r requirements.txt
       
     - name: run python
-      run: python fb_fail_scraper.py
-      env:
-        EMAIL: ${{ secrets.EMAIL }}
-        PASSWORD: ${{ secrets.PASSWORD }}
+      run: python scraper.py
 
     - name: auto commit
-      if: always()
       uses: stefanzweifel/git-auto-commit-action@v4
       with: 
         commit_message: ':bento: Update Data'
-        branch: add-fb-data
+        branch: add-data
         create_branch: true

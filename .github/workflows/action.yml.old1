@@ -1,4 +1,4 @@
-name: Scrape FB Fail
+name: Scrape FB
 
 on:
     workflow_dispatch
@@ -10,9 +10,6 @@ jobs:
 
     - name: checkout repo content
       uses: actions/checkout@v2
-
-    - name: setup chromedriver
-      uses: nanasess/setup-chromedriver@v1
 
     - name: Decrypt FB Login Session Cookies
       run: |
@@ -32,13 +29,9 @@ jobs:
       run: pip install -r requirements.txt
       
     - name: run python
-      run: python fb_fail_scraper.py
-      env:
-        EMAIL: ${{ secrets.EMAIL }}
-        PASSWORD: ${{ secrets.PASSWORD }}
+      run: python fb_scraper.py
 
     - name: auto commit
-      if: always()
       uses: stefanzweifel/git-auto-commit-action@v4
       with: 
         commit_message: ':bento: Update Data'
